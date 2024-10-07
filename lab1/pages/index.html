@@ -2,40 +2,56 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Eve - works</title>
+  <title>Eve - Works</title>
   <meta name="keywords" content="Ева, портфолио, комикс, вшэ, портфолио Ева">
   <meta name="description" content="Добро пожаловать. Меня зовут Ева - молодая художница из Москвы, и это мое портфолио с моими работами. Приятного ознакомления!">
   <link rel="icon" href="../img/icon.jpg">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-<header>
-  <h1> Портфолио </h1>
+<body class="page">
 
-  <nav>
-    <ul>
-      <li>Мои работы</li>
-      <li><a href="about.html">Обо мне</a></li>
-      <li><a href="contacts.html">Связаться со мной</a></li>
+<header class="header">
+  <div class="header__logo-container">
+    <a href="index.html">
+      <img class="header__logo" src="../img/logo0.png" alt="Логотип Евы">
+    </a>
+  </div>
+  <nav class="header__nav nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="index.html">Мои работы</a></li>
+      <li class="nav__item"><a class="nav__link" href="about.html">Обо мне</a></li>
+      <li class="nav__item"><a class="nav__link" href="contacts.html">Связаться со мной</a></li>
     </ul>
   </nav>
-  <div>
-      <a title="YouTube" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077046.png" width="20" height="20" alt="Youtube"></a>
-      <a title="Telegram канал" href="https://t.me/lllongstoryshort"><img src="https://cdn-icons-png.flaticon.com/512/739/739260.png" width="20" height="20" alt="Telegram"></a>
-      <a title="Vk группа" href="https://vk.com/lllongstoryshort"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111828.png" width="20" height="20" alt="Вконтакте"></a>
+  <div class="header__socials">
+    <a class="header__social-link" title="YouTube" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="header__social-icon" src="https://cdn-icons-png.flaticon.com/512/1077/1077046.png" alt="YouTube"></a>
+    <a class="header__social-link" title="Telegram" href="https://t.me/lllongstoryshort"><img class="header__social-icon" src="https://cdn-icons-png.flaticon.com/512/739/739260.png" alt="Telegram"></a>
+    <a class="header__social-link" title="ВКонтакте" href="https://vk.com/lllongstoryshort"><img class="header__social-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111828.png" alt="ВКонтакте"></a>
   </div>
 </header>
-<main>
-  <section>
-    <ul>
-      <li><img src="../img/pic1.jpg" width="500" height="500" alt="Игрушечный лабиринт"></li>
-      <li><img src="../img/pic0.jpg" width="500" height="500" alt="Тебя нет"></li>
-      <li><img src="../img/pic2.png" width="500" height="500" alt="Следят за мной"></li>
-      <li><img src="../img/pic4.jpg" width="500" height="500" alt="Вселенная (не)бесконечна"></li>
+
+<main class="main">
+  <section class="works">
+    <ul class="works__list">
+      <li class="works__item">
+        <img class="works__image" src="../img/pic1.jpg" alt="Игрушечный лабиринт">
+      </li>
+      <li class="works__item">
+        <img class="works__image" src="../img/pic0.jpg" alt="Тебя нет">
+      </li>
+      <li class="works__item">
+        <img class="works__image" src="../img/pic2.png" alt="Следят за мной">
+      </li>
+      <li class="works__item">
+        <img class="works__image" src="../img/pic4.jpg" alt="Вселенная (не)бесконечна">
+      </li>
     </ul>
   </section>
 </main>
-<footer>
-  <p> 2024 Художница Ева - <del>Все права защищены</del> <ins> made by Mavichy</ins></p>
+
+<footer class="footer">
+  <p class="footer__text">2024 Художница Ева - <ins>made by Mavichy</ins></p>
 </footer>
+
 </body>
 </html>
